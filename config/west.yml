@@ -5,10 +5,10 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     # Toucan
-    - name: petejohanson
-      url-base: https://github.com/petejohanson/
     - name: caksoylar
       url-base: https://github.com/caksoylar
+    - name: geeksville
+      url-base: https://github.com/geeksville
     # Prospector Scanner
     - name: prospector
       url-base: https://github.com/t-ogura
@@ -18,8 +18,8 @@ manifest:
       import: app/west.yml
     # Toucan
     - name: cirque-input-module
-      remote: petejohanson
-      revision: main
+      remote: geeksville
+      revision: toucan
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: main
