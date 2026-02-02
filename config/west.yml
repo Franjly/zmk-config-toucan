@@ -1,6 +1,4 @@
 manifest:
-  defaults:
-    revision: v0.3
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
@@ -16,6 +14,7 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+      revision: main
     # Toucan
     - name: cirque-input-module
       remote: petejohanson
@@ -27,6 +26,6 @@ manifest:
     - name: prospector-zmk-module
       remote: prospector
       repo-path: prospector-zmk-module
-      revision: v2.0.0
+      revision: v2.1.0
   self:
     path: config
