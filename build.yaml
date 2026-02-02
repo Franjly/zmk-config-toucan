@@ -1,12 +1,12 @@
 include:
   # Toucan
-  - board: xiao_ble
+  - board: seeeduino_xiao_ble
     shield: toucan_left rgbled_adapter nice_view_gem_toucan
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-  - board: xiao_ble
+  - board: seeeduino_xiao_ble
     shield: toucan_right rgbled_adapter
 
   # Settings reset
-  - board: xiao_ble
+  - board: seeeduino_xiao_ble
     shield: settings_reset
